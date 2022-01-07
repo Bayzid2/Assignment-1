@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+section{
+    height: 400px;
+    margin-bottom: 250px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 5%;
+}
+.half-width img{
+    width: 70%;
+    height: 100%;
+}
+
+#first-h1{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    padding-left: 5px;
+    font-weight: 900;
+}
+.btn{
+    padding: 15px 50px;
+    border: none;
+    background-image: linear-gradient(45deg,tomato,blue,red);
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+.btn:hover{
+    color: red;
+    cursor: pointer;
+    font-style: italic;
+}
+/*2nd section*/
+.second-section{
+    background-image: url(illustrators/top-banner.png);
+    /*background-repeat: no-repeat;*/
+}
+.movies{
+    display: flex;
+    justify-content: space-around;
+}
+.titanic{
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(168, 196, 247);
+    text-align: center;
+}
+.movies img{
+    width: 100%;
+    height: 60%;
+    
+}
+.inception{
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(204, 201, 17);
+    text-align: center;
+}
+.shutter-island{
+      width: 250px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(199, 10, 174);
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    height: 150px;
+}
+.half-width-another{
+    width: 45%;
+    float: left;
+    margin: 10px 10px;
+    padding: 20px;
+}
+.half-width-another img{
+    width: 70%;
+    height: 100%;
+}
+.half-width-one h1{
+    margin: 0px;
+}
+.third-section{
+    background-image: url(illustrators/dream-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.fourth-section{
+    background-image: url(illustrators/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+}
+
+form li + li {
+  margin-top: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+#send{
+    margin-top: 10px;
+    margin-left: 100px;
+    
+
+}
+#contact-us img{
+    width: 100%;
+    height: 100%;
+}
+.fifth-section{
+    margin-bottom: 0px;
+}
